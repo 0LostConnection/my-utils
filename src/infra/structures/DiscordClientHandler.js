@@ -6,6 +6,8 @@ module.exports = class extends Client {
     constructor(options) {
         super(options)
         this.commands = []
+        this.loadCommands()
+        this.loadEvents()
     }
 
     deployCommands(commandsCategoriesPath = 'src/commands') {
