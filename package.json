@@ -1,0 +1,11 @@
+{
+    "name": "my-utils",
+    "version": "1.0.0",
+    "description": "A bot for custom utilities.",
+    "main": "index.js",
+    "scripts": {
+      "test": "node index.js"
+    },
+    "author": "Geovane Saraiva da Silva",
+    "license": "MIT"
+  }

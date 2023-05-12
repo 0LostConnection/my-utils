@@ -1,0 +1,1 @@
+Pegar o usuário atual do dono e enviar para uma API.
