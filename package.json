@@ -4,8 +4,13 @@
     "description": "A bot for custom utilities.",
     "main": "index.js",
     "scripts": {
-      "test": "node index.js"
+        "test": "node index.js"
     },
     "author": "Geovane Saraiva da Silva",
-    "license": "MIT"
-  }
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.11.0",
+        "dotenv": "^16.0.3",
+        "mongoose": "^7.1.1"
+    }
+}
