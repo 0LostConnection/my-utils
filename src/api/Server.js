@@ -14,7 +14,7 @@ module.exports = class Server {
     addRoutes() {
         const Routes = require('./Routes')
         this.app.use('/api/hello', Routes.Hello)
-        this.app.use('/api/hello2', Routes.Hello2)
+        this.app.use('/api/owner', Routes.Owner)
     }
 
     start() {
